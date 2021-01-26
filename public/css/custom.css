@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+#body-app{
+    overflow: auto;
+    margin: 0 auto;
+    transition: all 0.1s ease-in-out;
+    background: linear-gradient(to top, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+.modal-open {
+    overflow: auto; 
+}
+
+.nav-sign{
+    background-image: url('https://image.freepik.com/free-photo/brown-old-paper-texture-vintage-paper-background_43379-475.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 10px #ADA996;
+}
+
+.email{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(33,37,41);
+}
+
+.name{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(33,37,41);
+}
+
+.password{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(33,37,41);
+}
+
+.description{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(33,37,41);
+}
+
+#email:focus{
+    outline:none !important;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(33,37,41);
+}
+
+#password:focus{
+    outline:none !important;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(33,37,41);
+}
+
+#name:focus{
+    outline:none !important;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(33,37,41);
+}
+
+#password-confirm:focus{
+    outline:none !important;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(33,37,41);
+}
+
+#description:focus{
+    outline:none !important;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(33,37,41);
+}
+
+#password-confirm{
+    font-weight: bold;
+    border: 1px solid rgb(33,37,41,0.5);
+}
+
+#name{
+    font-weight: bold;
+    border: 1px solid rgb(33,37,41,0.5);
+}
+
+#email{
+    font-weight: bold;
+    border: 1px solid rgb(33,37,41,0.5);
+}
+
+#password{
+    font-weight: bold;
+    border: 1px solid rgb(33,37,41,0.5);
+}
+
+#description{
+    font-weight: bold;
+    border: 1px solid rgb(33,37,41,0.5);
+}
+
+
+.head-text-sign{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif !important;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.form-check-input{  
+    width: 20px;
+    height: 20px;
+}
+
+
+.form-check-input:focus{
+    outline:none !important;
+    border: none;
+}
+
+.forget{
+    color: rgb(33,37,41,0.5) !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px !important;
+}
+
+.forget:hover{
+    text-decoration: none !important;
+    color: rgb(33,37,41) !important;
+}
+
+.sign-in-btn{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+}
+
+.sign-in-btn:hover{
+    border-color: rgb(255,255,255) !important;
+}
+
+.sign-up-btn{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+}
+
+.sign-up-btn:hover{
+    border-color: rgb(255,255,255) !important;
+}
+
+.agree{
+    font-family: 'PT Serif', serif !important;
+    letter-spacing: 4px;
+    border-bottom: 2px solid rgb(33,37,41,0.5);
+}
+
+
+.cancel{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+    color: rgb(33,37,41) !important;
+    border: 1px solid rgb(33,37,41) !important;
+}
+
+.cancel:hover{
+    background-color: rgb(33,37,41) !important; 
+    color: #fff !important;
+}
+
+.confirm{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+    color: rgb(33,37,41) !important;
+    border: 1px solid rgb(33,37,41) !important;
+}
+
+.confirm:hover{
+    background-color: rgb(33,37,41) !important; 
+    color: #fff !important;
+}
+
+.modal-footer{
+    box-shadow: 2px 2px 10px rgb(146,98,55);
+    background-image: url('https://image.freepik.com/free-photo/brown-old-paper-texture-vintage-paper-background_43379-475.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-wall{
+    background-image: url('https://i.servimg.com/u/f38/17/91/41/66/10352410.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+}
+
+.facebook{
+    background-color: rgb(0,134,244) !important;
+    font-family: 'PT Serif', serif !important;
+    border-color: rgb(0,134,244) !important;
+    color: #fff !important;
+}
+
+.gmail{
+    background-color: rgb(255,255,255) !important;
+    font-family: 'PT Serif', serif !important;
+    color: #000 !important;
+    border-color: rgb(255,255,255) !important;
+}
+
+.link-in-a:hover{
+    text-decoration: none;
+    background-color: rgb(33,37,41) !important;
+    color: #fff !important;
+}
+
+.link-in{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal !important;
+    color: rgb(33,37,41) !important;
+}
+
+
+.link-in-a{
+    font-family: 'PT Serif', serif !important;
+    font-weight: normal !important;
+    color: rgb(33,37,41);
+}
+
+.founder{
+    font-family: 'PT Serif', serif !important;
+    color: rgb(33,37,41,0.9) !important;
+    text-shadow: -6px -6px rgb(33,37,41,0.1) !important;
+    letter-spacing: 2px;
+}
+
+
+.founder-img{
+    box-shadow: 2px 2px 10px rgb(33,37,41) !important;
+}
+
+.p-founder{
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(33,37,41);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 7px rgb(33,37,41,0.2);
+}
+
+
+.card-pur-h{
+    font-family: 'PT Serif', serif !important;
+    letter-spacing: 2px;
+}
+
+.card-bg{
+    border-radius: 0%;
+    border-color: rgb(174,127,81);
+    transition-duration: 1s;
+}
+
+.card-bg:hover{
+    transform: scale(1.1);
+}
+
+.icon-com{
+    color: rgb(174,127,81);
+}
+
+.icon-re{
+    color: rgb(174,127,81);
+}
+
+
+.icon-glass{
+    color: rgb(174,127,81);
+}
+
+.card-pur-p{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.start:hover {
+    background-color:  rgb(204,154,101) !important;
+    color: rgb(33,37,41);
+}
+
+
+#sidebarnav > li > .active{
+    background-color: rgb(33,37,41) !important;
+}
+
+#sidebarnav > li > .drop{
+    background-color: rgb(33,37,41) !important;
+}
+.drop{
+    color: rgb(255,255,255) !important;
+}
+.drop:hover, .drop > .fas.fa-cart-plus{
+    color: rgb(255,255,255) !important;
+}
+
+.collapse > li > a:hover {
+    color: rgb(33,37,41) !important;
+}
+
+.post-form-label{
+    color: rgb(33,37,41);
+    font-size: 18px; 
+    font-family: 'PT Serif', serif !important;
+}
+
+
+.select2 > option ,.select2-hidden-accessible > option{
+    font-weight: bold !important;
+}
+
+
+.post-btn{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+    color: rgb(33,37,41) !important;
+    border: 1px solid rgb(33,37,41) !important;
+}
+
+.post-btn:hover{
+    background-color: rgb(33,37,41) !important; 
+    color: #fff !important;
+}
+
+
+.del-post{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+    color: rgb(33,37,41) !important;
+    border: 1px solid #bf082c !important;
+}
+
+.del-post:hover{
+    background-color: #bf082c !important; 
+    color: #fff !important;
+}
+
+.edit-post{
+    border-radius: 0% !important;
+    font-family: 'PT Serif', serif !important;
+    transition-duration: 0.4s !important;
+    color: rgb(33,37,41) !important;
+    border: 1px solid rgb(33,37,41) !important;
+}
+
+.edit-post:hover{
+    background-color: rgb(33,37,41) !important; 
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .first-6{
+        border: none !important;
+    }
+}
